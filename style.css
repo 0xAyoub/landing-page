@@ -1,13 +1,25 @@
 @font-face {
     font-family: "Montserrat";
-    src: url("assets/Montserrat/Montserrat-Light.ttf") format("TrueType");
+    src: url("assets/Montserrat/Montserrat-Thin.ttf") format("TrueType");
     font-weight: 300;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("assets/Montserrat/Montserrat-Light.ttf") format("TrueType");
+    font-weight: 400;
 }
 
 @font-face {
     font-family: "Montserrat";
     src: url("assets/Montserrat/Montserrat-Medium.ttf") format("TrueType");
     font-weight: 500;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("assets/Montserrat/Montserrat-SemiBold.ttf") format("TrueType");
+    font-weight: 600;
 }
 
 @font-face {
@@ -39,9 +51,106 @@ body{
 .btn-header{
     padding: 20px;
     background-color: transparent;
-    border: 3px black solid;
+    border: 3px rgb(29, 26, 63) solid;
+    color: rgb(29, 26, 63);
     border-radius: 7px;
     font-family: Montserrat;
     font-weight: 500;
     cursor: pointer;
+}
+
+.block1{
+    display: grid;
+    grid-template-columns: 75% 25%;
+    padding: 90px 0;
+}
+
+.block1-right{
+    display: grid;
+}
+
+.block1-right-sp{
+    text-align: left;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+
+.block1-right-content{
+    display: inline-block;
+}
+
+.block1-right-text, .block1-right-title{
+    margin: 0;
+}
+
+.block1-right-title{
+    font-size: 35px;
+}
+
+.block1-right-text{
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.block1-left{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.block1-left-write{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 630px;
+    height: auto;
+    margin-left: 100px;
+    z-index: 1;
+    padding: 110px 0;
+}
+
+.block1-left-title{
+    font-size: 55px;
+    font-weight: 400;
+    line-height: 50px;
+    margin: 0;
+}
+
+.bold{
+    font-weight: 600;
+}
+
+.block1-left-text{
+    font-size: 17px;
+    font-weight: 400;
+    margin: 40px 0;
+}
+
+.block1-left-img{
+    display: flex;
+    position: relative;
+    left: -220px;
+}
+
+.block1-left-btn{
+    background-color: rgb(29, 26, 63);
+    color: white;
+    padding: 20px;
+    border-radius: 7px;
+    font-family: Montserrat;
+    border: solid;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.block1-pattern{
+    width: 300px;
+    display: flex;
+    position: relative;
+    left: 250px;
+    top: -50px;
 }
