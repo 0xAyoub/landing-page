@@ -56,6 +56,7 @@ body{
     border-radius: 7px;
     font-family: Montserrat;
     font-weight: 500;
+    font-size: 14px;
     cursor: pointer;
 }
 
@@ -98,7 +99,7 @@ body{
 
 .block1-left{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1.5fr 1fr;
 
 }
 
@@ -106,7 +107,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 630px;
+    width: 100%;
     height: auto;
     margin-left: 100px;
     z-index: 1;
@@ -128,12 +129,14 @@ body{
     font-size: 17px;
     font-weight: 400;
     margin: 40px 0;
+    display: block;
+    width: 50%;
 }
 
 .block1-left-img{
     display: flex;
     position: relative;
-    left: -220px;
+    left: -10%;
 }
 
 .block1-left-btn{
@@ -144,6 +147,7 @@ body{
     font-family: Montserrat;
     border: solid;
     font-weight: 500;
+    font-size: 14px;
     cursor: pointer;
 }
 
