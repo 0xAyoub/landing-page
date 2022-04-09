@@ -141,6 +141,7 @@ body{
 .block1-left-img{
     display: flex;
     position: relative;
+    width: 350px;
     left: -10%;
 }
 
@@ -234,6 +235,7 @@ body{
     position: relative;
     top: 35%;
     left: 80%;
+    opacity: 60%;
 }
 
 .footer{
@@ -266,4 +268,191 @@ body{
 
 .footer-social img{
     margin: 0 3px
+}
+
+@media screen and (max-width: 1200px) {
+
+    .block1{
+        display: block;
+    }
+
+    .block1-right{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .block1-right-sp{
+        text-align: center;
+    }
+    .block1-left-write{
+        padding: 90px 0;
+    }
+
+    .block2{
+        margin: 20px 20px -200px 20px;
+    }
+
+    .body{
+        padding: 50px 30px 0px 30px;
+    }
+
+}
+
+@media screen and (max-width: 900px) {
+
+    .block2{
+        height: 700px;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: none;
+        padding: 0 0 30px 0;
+    }
+
+    .block2-left{
+        height: 400px;
+    }
+
+    .jeremy{
+        height: 400px;
+        top: -25%;
+        left: 35%;
+    }
+
+    .blur{
+        top: -35%;
+        left: 15%;
+    }
+
+    .pattern2{
+        top: 325px;
+        left: 45%;
+    }
+
+    .block2-right{
+        top: 0;
+        text-align: center;
+    }
+
+    .block1-left{
+        display: block;
+    }
+
+    .block1-left-write{
+        padding: 0;
+        margin: 0;
+    }
+
+    .block1-pattern{
+        width: 200px;
+        top: 0;
+        left: 240px;
+    }
+
+    .block1-left-text{
+        width: 100%;
+        margin: 15px 0;
+    }
+
+    .block1-left-img{
+        display: none;        
+    }
+    
+    .block1-right-sp{
+        margin: 40px 0;
+    }    
+
+    .footer{
+        padding: 200px 50px 0 50px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .jeremy {
+        height: 400px;
+        top: -25%;
+        left: 30%;
+      }
+      .blur {
+        top: -35%;
+        left: 10px;
+      }
+}
+
+@media screen and (max-width: 500px) {
+    .jeremy {
+        height: 400px;
+        top: -25%;
+        left: 22%;
+      }
+      .blur {
+        top: -35%;
+        left: -50px;
+      }
+}
+
+
+@media screen and (max-width: 420px) {
+    .block1-pattern{
+        left: 10px;
+    }
+
+    .block1-left-img{
+        display: flex;
+        content: url(assets/image-hero-landscape.png);
+        width: 100%;
+        left: 0;
+        top: 10px;
+    }
+
+    .block1-left-title{
+        font-size: 45px;
+    }
+
+    .jeremy {
+        height: 300px;
+        top: -10%;
+        left: 25%;
+    }
+
+    .blur {
+        top: -30px;
+        left: 0;
+        height: 85%;
+      }
+
+      .pattern2 {
+        top: 285px;
+        left: 40%;
+      }
+
+      .block2-left {
+        height: 300px;
+      }
+
+      .block2{
+            padding: 0;
+      }
+
+      .block2-right p{
+          font-size: 15px;
+      }
+    
+}
+
+@media screen and (max-width: 500px) {
+    .jeremy {
+        height: 300px;
+        top: -10%;
+        left: 15%;
+      }
+
+      .blur {
+        top: 0;
+        left: 0;
+      }
+
+      .pattern2 {
+        left: 35%;
+      }
+      .block2-right h2{
+          font-size: 30px;
+      }
 }
