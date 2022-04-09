@@ -158,3 +158,73 @@ body{
     left: 250px;
     top: -50px;
 }
+
+
+.block2{
+    margin: 20px 100px;
+    background-color: rgb(29, 26, 63);
+    border-radius: 15px;
+    color: white;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    height: 450px;
+}
+
+.block2-left{
+    position: relative;
+    align-items: center;
+    height: inherit;
+    display: block;
+}
+
+.blur{
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 45%;
+
+}
+
+.jeremy{
+    position: absolute;
+    height: 110%;
+    width: auto;
+    z-index: 1;
+    top: -10%;
+    left: 20%;
+}
+
+.block2-right{
+    position: relative;
+    top: 15%;
+}
+
+.block2-right h2{
+    font-size: 40px;
+    margin: 0 0 10px 0;
+    font-weight: 400;
+}
+.block2-right p{
+    font-size: 18px;
+    line-height: 27px;
+    margin: 40px 0 0 0;
+    font-weight: 300;
+}
+.block2-right h5{
+    font-size: 20px;
+    margin: 40px 0 0 0;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.block2-right h4{
+    font-size: 15px;
+    margin: 5px 0 0 0;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.pattern2{
+    position: relative;
+    top: 35%;
+    left: 80%;
+}
