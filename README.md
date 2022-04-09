@@ -1,1 +1,1 @@
-<h2>Projet FrontEndMentor HTML / CSS réalisé avec succès.</h2>
+<h2>Projet FrontEndMentor.io HTML / CSS réalisé avec succès.</h2>
